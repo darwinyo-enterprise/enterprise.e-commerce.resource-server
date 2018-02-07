@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Darwin Yo</Authors>
+    <Company>Enterprise</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.E-Commerce.NetStandard.DataLayers\Enterprise.E-Commerce.NetStandard.DataLayers.csproj" />
+  </ItemGroup>
+
+</Project>
